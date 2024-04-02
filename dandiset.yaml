@@ -40,9 +40,9 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Schwab, Bettina; Kase, Daisuke; Zimnik, Andrew; Rosenbaum, Robert; Codianni,
-  Marcello; Rubin, Jonathan; Turner, Robert; National Science Foundation (2024) Single-Unit
-  Activity from Internal Globus Pallidus of Macaques During Reaching (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000947/draft
+  Marcello; Rubin, Jonathan; Turner, Robert (2024) Single-Unit Activity from Internal
+  Globus Pallidus of Macaques During Reaching (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000947/draft
 contributor:
 - identifier: 0000-0003-1428-4836
   includeInCitation: true
@@ -110,7 +110,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: DMS1516288
-  includeInCitation: true
+  includeInCitation: false
   name: National Science Foundation
   roleName:
   - dcite:Funder
@@ -176,7 +176,15 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000947/versions/draft/assets/
 name: Single-Unit Activity from Internal Globus Pallidus of Macaques During Reaching
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1371/journal.pbio.3000829
+  name: Neural activity during a simple reaching task in macaques is counter to gating
+    and rebound in basal ganglia-thalamic communication
+  relation: dcite:IsDescribedBy
+  repository: PLOS Biology
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
