@@ -26,8 +26,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 547044197201
-  numberOfFiles: 271
+  numberOfBytes: 550304813680
+  numberOfFiles: 272
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -186,6 +186,14 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829
+- identifier: ''
+  name: Single-Unit Activity from Internal Globus Pallidus of Macaques During Reaching
+    tutorial
+  relation: dcite:IsDescribedBy
+  repository: example-notebooks
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://github.com/dandi/example-notebooks/blob/master/000947/TurnerLab/public_demo/000947_demo.ipynb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
