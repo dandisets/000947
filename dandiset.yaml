@@ -39,10 +39,10 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ElectricalSeries
-citation: Schwab, Bettina; Kase, Daisuke; Zimnik, Andrew; Rosenbaum, Robert; Codianni,
-  Marcello; Rubin, Jonathan; Turner, Robert (2024) Single-Unit Activity from Internal
-  Globus Pallidus of Macaques During Reaching (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000947/draft
+citation: Schwab, Bettina; Kase, Daisuke; Zimnik, Andrew; Han, Yan; Codianni, Marcello;
+  Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Single-Unit Activity from
+  Internal Globus Pallidus of Macaques During Reaching (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000947/draft
 contributor:
 - identifier: 0000-0003-1428-4836
   includeInCitation: true
@@ -66,9 +66,9 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
-  name: Rosenbaum, Robert
+  name: Han, Yan
   roleName:
-  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
   name: Codianni, Marcello
@@ -81,10 +81,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- email: rturner@pitt.edu
-  identifier: 0000-0002-6074-4365
-  includeInCitation: true
-  name: Turner, Robert
+- includeInCitation: true
+  name: Rosenbaum, Robert
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -109,12 +107,13 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: DMS1516288
-  includeInCitation: false
-  name: National Science Foundation
+- email: rturner@pitt.edu
+  identifier: 0000-0002-6074-4365
+  includeInCitation: true
+  name: Turner, Robert
   roleName:
-  - dcite:Funder
-  schemaKey: Organization
+  - dcite:Author
+  schemaKey: Person
 - awardNumber: DMS1724240
   includeInCitation: false
   name: National Science Foundation
@@ -151,6 +150,12 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: DMS1516288
+  includeInCitation: false
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-03-30T12:27:06.991378+00:00'
 description: 'This dataset contains recordings of single-unit activity from globus
   pallidus-internus (GPi) in monkeys performing a choice reaction time reaching task.
@@ -161,7 +166,20 @@ description: 'This dataset contains recordings of single-unit activity from glob
   digitized at 24.414 kHz (approx., 16-bit resolution; Tucker Davis Technologies).
   The neuronal data were high-pass filtered (Fpass: 200 Hz, Matlab FIRPM) and thresholded,
   and candidate action potentials were sorted into clusters in principal components
-  space (Off-line Sorter, Plexon).'
+  space (Off-line Sorter, Plexon).
+
+
+  The recordings for subject Isis before the administration of MPTP (pre-MPTP) were
+  collected by Daisuke Kase.
+
+  The recordings for subject Isis after the administration of MPTP (post-MPTP) were
+  collected by Yan Han (韩妍).
+
+  The recordings for subject Gaia (pre-MPTP,  post-MPTP) from 2015 were collected
+  by Andrew J. Zimnik.
+
+  The recordings for subject Gaia (pre-MPTP,  post-MPTP) from 2016-2017 were also
+  collected by Daisuke Kase.'
 ethicsApproval: []
 id: DANDI:000947/draft
 identifier: DANDI:000947
