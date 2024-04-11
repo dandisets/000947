@@ -39,17 +39,11 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ElectricalSeries
-citation: Schwab, Bettina; Kase, Daisuke; Zimnik, Andrew; Han, Yan; Codianni, Marcello;
+citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Schwab, Bettina; Codianni, Marcello;
   Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Single-Unit Activity from
   Internal Globus Pallidus of Macaques During Reaching (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000947/draft
 contributor:
-- identifier: 0000-0003-1428-4836
-  includeInCitation: true
-  name: Schwab, Bettina
-  roleName:
-  - dcite:Author
-  schemaKey: Person
 - email: daisuke.kase@pitt.edu
   identifier: 0000-0002-3837-162X
   includeInCitation: true
@@ -60,15 +54,21 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
+  name: Han, Yan
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
   name: Zimnik, Andrew
   roleName:
   - dcite:Author
   - dcite:DataCollector
   schemaKey: Person
-- includeInCitation: true
-  name: Han, Yan
+- identifier: 0000-0003-1428-4836
+  includeInCitation: true
+  name: Schwab, Bettina
   roleName:
-  - dcite:DataCollector
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Codianni, Marcello
