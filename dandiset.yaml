@@ -18,16 +18,16 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 750796744648
-  numberOfFiles: 300
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 759702731331
+  numberOfFiles: 306
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -36,9 +36,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-  - ElectrodeGroup
   - ElectricalSeries
   - ProcessingModule
+  - ElectrodeGroup
 citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Schwab, Bettina; Codianni, Marcello;
   Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Single-Unit Activity from
   Internal Globus Pallidus of Macaques During Reaching (Version draft) [Data set].
