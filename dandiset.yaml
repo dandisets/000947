@@ -24,15 +24,15 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1042125010269
+  numberOfBytes: 1041299385386
   numberOfFiles: 377
   numberOfSubjects: 2
   schemaKey: AssetsSummary
@@ -42,8 +42,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-  - ProcessingModule
   - ElectrodeGroup
+  - ProcessingModule
   - ElectricalSeries
 citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Schwab, Bettina; Codianni, Marcello;
   Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Reach-related Single Unit
