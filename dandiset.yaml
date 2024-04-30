@@ -24,15 +24,15 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 994814900157
+  numberOfBytes: 1000715472756
   numberOfFiles: 377
   numberOfSubjects: 2
   schemaKey: AssetsSummary
@@ -41,10 +41,10 @@ assetsSummary:
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
-  - ElectricalSeries
   - ProcessingModule
+  - ElectricalSeries
   - ElectrodeGroup
+  - Units
 citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Schwab, Bettina; Codianni, Marcello;
   Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Reach-related Single Unit
   Activity in the Parkinsonian Macaque (Version draft) [Data set]. DANDI archive.
