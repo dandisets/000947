@@ -32,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1048313971175
-  numberOfFiles: 377
+  numberOfBytes: 1048819909625
+  numberOfFiles: 378
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -162,6 +162,18 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: 1 R01 NS 117058-01
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1 R01 NS 070865-01A1
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  schemaKey: Organization
 dateCreated: '2024-03-30T12:27:06.991378+00:00'
 description: 'This dataset contains recordings of single-unit activity from from multiple
   brain areas,  including globus pallidus-internus (GPi), ventrolateral nucleus of
@@ -219,13 +231,20 @@ relatedResource:
   schemaKey: Resource
   url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829
 - identifier: ''
-  name: Single-Unit Activity from Internal Globus Pallidus of Macaques During Reaching
-    tutorial
+  name: Reach-related Single Unit Activity in the Parkinsonian Macaque
   relation: dcite:IsDescribedBy
   repository: example-notebooks
   resourceType: dcite:ComputationalNotebook
   schemaKey: Resource
   url: https://github.com/dandi/example-notebooks/blob/master/000947/TurnerLab/public_demo/000947_demo.ipynb
+- identifier: https://doi.org/10.1101/2023.09.08.556120
+  name: Detecting rhythmic spiking through the power spectra of point process model
+    residuals
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2023.09.08.556120v2
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
