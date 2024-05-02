@@ -45,10 +45,9 @@ assetsSummary:
   - ElectrodeGroup
   - ProcessingModule
   - ElectricalSeries
-citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Schwab, Bettina; Codianni, Marcello;
-  Rubin, Jonathan; Rosenbaum, Robert; Turner, Robert (2024) Reach-related Single Unit
-  Activity in the Parkinsonian Macaque (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000947/draft
+citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Turner, Robert (2024) Reach-related
+  Single Unit Activity in the Parkinsonian Macaque (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000947/draft
 contributor:
 - email: daisuke.kase@pitt.edu
   identifier: 0000-0002-3837-162X
@@ -56,7 +55,6 @@ contributor:
   name: Kase, Daisuke
   roleName:
   - dcite:Author
-  - dcite:ContactPerson
   - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
@@ -70,98 +68,14 @@ contributor:
   - dcite:Author
   - dcite:DataCollector
   schemaKey: Person
-- identifier: 0000-0003-1428-4836
-  includeInCitation: true
-  name: Schwab, Bettina
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- includeInCitation: true
-  name: Codianni, Marcello
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- identifier: 0000-0002-1513-1551
-  includeInCitation: true
-  name: Rubin, Jonathan
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- includeInCitation: true
-  name: Rosenbaum, Robert
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- awardNumber: S01NS113817
-  identifier: https://ror.org/01s5ya894
-  includeInCitation: false
-  name: National Institute of Neurological Disorders and Stroke
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: R01NS091853
-  identifier: https://ror.org/01s5ya894
-  includeInCitation: false
-  name: National Institute of Neurological Disorders and Stroke
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: R01NS070865
-  identifier: https://ror.org/01s5ya894
-  includeInCitation: false
-  name: National Institute of Neurological Disorders and Stroke
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - email: rturner@pitt.edu
   identifier: 0000-0002-6074-4365
   includeInCitation: true
   name: Turner, Robert
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: DMS1724240
-  includeInCitation: false
-  name: National Science Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: 1P30NS076405-01A1
-  includeInCitation: false
-  name: Center for Neuroscience Research in Non-human primates
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: DMS-1654268
-  includeInCitation: false
-  name: National Science Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: DBI-1707400
-  includeInCitation: false
-  name: Neuronex
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: 613.009.012
-  includeInCitation: false
-  name: Netherlands Organization for Scientific Research
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: 1P30NS076405-01A1
-  includeInCitation: false
-  name: Center for Neuroscience Research in Non-human primates
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: DMS1516288
-  includeInCitation: false
-  name: National Science Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - awardNumber: 1 R01 NS 117058-01
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
@@ -173,6 +87,15 @@ contributor:
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ASAP-020519
+  identifier: https://ror.org/03zj4c476
+  includeInCitation: false
+  name: Aligning Science Across Parkinson's (ASAP)
+  roleName:
+  - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T12:27:06.991378+00:00'
 description: 'This dataset contains recordings of single-unit activity from from multiple
@@ -201,8 +124,8 @@ description: 'This dataset contains recordings of single-unit activity from from
   The recordings for subject Gaia (pre-MPTP,  post-MPTP) from 2015 were collected
   by Andrew J. Zimnik.
 
-  The recordings for subject Gaia (pre-MPTP,  post-MPTP) from 2016-2017 were also
-  collected by Daisuke Kase.'
+  The recordings for subject Gaia (post-MPTP) from 2016-2017 were also collected by
+  Daisuke Kase.'
 ethicsApproval: []
 id: DANDI:000947/draft
 identifier: DANDI:000947
