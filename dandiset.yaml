@@ -45,9 +45,9 @@ assetsSummary:
   - ElectrodeGroup
   - ProcessingModule
   - ElectricalSeries
-citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Turner, Robert (2024) Reach-related
-  Single Unit Activity in the Parkinsonian Macaque (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000947/draft
+citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Cox, Karin; Turner, Robert (2024)
+  Reach-related Single Unit Activity in the Parkinsonian Macaque (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000947/draft
 contributor:
 - email: daisuke.kase@pitt.edu
   identifier: 0000-0002-3837-162X
@@ -68,6 +68,14 @@ contributor:
   - dcite:Author
   - dcite:DataCollector
   schemaKey: Person
+- email: kmc51@pitt.edu
+  identifier: 0000-0002-5418-0508
+  includeInCitation: true
+  name: Cox, Karin
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
 - email: rturner@pitt.edu
   identifier: 0000-0002-6074-4365
   includeInCitation: true
@@ -76,6 +84,13 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: ASAP-020519
+  identifier: https://ror.org/03zj4c476
+  includeInCitation: false
+  name: Aligning Science Across Parkinson's (ASAP)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 - awardNumber: 1 R01 NS 117058-01
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
@@ -87,13 +102,6 @@ contributor:
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: ASAP-020519
-  identifier: https://ror.org/03zj4c476
-  includeInCitation: false
-  name: Aligning Science Across Parkinson's (ASAP)
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -112,7 +120,7 @@ description: 'This dataset contains recordings of single-unit activity from from
   digitized at 24.414 kHz (approx., 16-bit resolution; Tucker Davis Technologies).
   The neuronal data were high-pass filtered (Fpass: 200 Hz, Matlab FIRPM) and thresholded,
   and candidate action potentials were sorted into clusters in principal components
-  space (Off-line Sorter, Plexon or custom algorithm, TomSort).
+  space (Off-line Sorter, Plexon or custom algorithm, TomSort, https://zenodo.org/doi/10.5281/zenodo.11176978).
 
 
   The recordings for subject Isis before the administration of MPTP (pre-MPTP) were
