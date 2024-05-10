@@ -106,6 +106,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T12:27:06.991378+00:00'
+datePublished: '2024-05-10T22:11:16.460019+00:00'
 description: 'This dataset contains recordings of single-unit activity from from multiple
   brain areas,  including globus pallidus-internus (GPi), ventrolateral nucleus of
   the thalamus (VLa and VLp) and the arm-related regions of primary motor cortex,
@@ -152,6 +153,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000947/versions/draft/assets/
 name: Reach-related Single Unit Activity in the Parkinsonian Macaque
 protocol: []
+publishedBy:
+  endDate: '2024-05-10T22:11:16.460019+00:00'
+  id: urn:uuid:59c6a3e1-d124-42ac-9435-a9bd5b7745c7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-10T22:11:16.460019+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:bd0f4acc-ec2f-4068-8d59-01284df29219
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1371/journal.pbio.3000829
   name: Neural activity during a simple reaching task in macaques is counter to gating
