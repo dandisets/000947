@@ -46,8 +46,8 @@ assetsSummary:
   - ProcessingModule
   - ElectricalSeries
 citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Cox, Karin; Turner, Robert (2024)
-  Reach-related Single Unit Activity in the Parkinsonian Macaque (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000947/draft
+  Reach-related Single Unit Activity in the Parkinsonian Macaque (Version 0.240510.2211)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000947/0.240510.2211
 contributor:
 - email: daisuke.kase@pitt.edu
   identifier: 0000-0002-3837-162X
@@ -135,8 +135,9 @@ description: 'This dataset contains recordings of single-unit activity from from
 
   The recordings for subject Gaia (post-MPTP) from 2016-2017 were also collected by
   Daisuke Kase.'
+doi: 10.48324/dandi.000947/0.240510.2211
 ethicsApproval: []
-id: DANDI:000947/draft
+id: DANDI:000947/0.240510.2211
 identifier: DANDI:000947
 keywords:
 - extracellular electrophysiology
@@ -150,7 +151,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000947/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000947/0.240510.2211/assets.yaml
 name: Reach-related Single Unit Activity in the Parkinsonian Macaque
 protocol: []
 publishedBy:
@@ -193,6 +194,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000947/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000947/0.240510.2211
+version: 0.240510.2211
 wasGeneratedBy: []
