@@ -46,9 +46,9 @@ assetsSummary:
   - ElectrodeGroup
   - ProcessingModule
   - ElectricalSeries
-citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Cox, Karin; Turner, Robert (2024)
+citation: Kase, Daisuke; Han, Yan; Zimnik, Andrew; Cox, Karin; Turner, Robert (2025)
   Reach-related Single Unit Activity in the Parkinsonian Macaque (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000947/draft
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/000947/draft
 contributor:
 - email: daisuke.kase@pitt.edu
   identifier: 0000-0002-3837-162X
@@ -107,7 +107,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T12:27:06.991378+00:00'
-datePublished: '2024-05-10T22:11:16.460019+00:00'
 description: "This dataset contains recordings of single-unit activity from from multiple
   brain areas,  including globus pallidus-internus (GPi), ventrolateral nucleus of
   the thalamus (VLa and VLp) and the arm-related regions of primary motor cortex,
@@ -146,18 +145,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000947/versions/draft/assets/
 name: Reach-related Single Unit Activity in the Parkinsonian Macaque
 protocol: []
-publishedBy:
-  endDate: '2024-05-10T22:11:16.460019+00:00'
-  id: urn:uuid:59c6a3e1-d124-42ac-9435-a9bd5b7745c7
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-05-10T22:11:16.460019+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:bd0f4acc-ec2f-4068-8d59-01284df29219
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1371/journal.pbio.3000829
   name: Neural activity during a simple reaching task in macaques is counter to gating
@@ -183,6 +170,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2023.09.08.556120v2
+- identifier: catalystneuro/turner-lab-to-nwb
+  name: turner-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/turner-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
